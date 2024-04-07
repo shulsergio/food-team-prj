@@ -1,0 +1,22 @@
+.header {
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.nav-link {
+    padding: 24px 0;
+    display: block;
+    color: green;
+}
