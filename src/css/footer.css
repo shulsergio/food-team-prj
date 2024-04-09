@@ -13,11 +13,16 @@
 
 .logo-list {
     padding-top: 64px;
-    display: inline-block;
+    display: flex;
+    justify-content: start;
+    gap: 46px;
 }
 
     .logo {
+        width: 69px;
+height: 51px;
 }
+
 .footer-nav {
     display: flex;
     flex-direction: column;
