@@ -11,35 +11,18 @@
 .background-img {
 }
 
-/* .img-orange {
-position: relative;
-top: 18px;
-left: 100%;
-transform: translateX(-100%);
+.logo-list {
+    padding-top: 64px;
+    display: inline-block;
 }
 
-.img-apple {
-    position: relative;
-    top: 132px;
-    left: 0;
-    }
-
-.img-fruits {
- position: relative;
-top: 100%;
- left: 50%;
-transform: translateX(-50%);
-    } */
-
     .logo {
-
 }
 .footer-nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    padding-top: 64px;
 }
 
 .footer-nav-item {
