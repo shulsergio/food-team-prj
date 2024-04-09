@@ -1,0 +1,128 @@
+.container {
+}
+.footer-container {
+    box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+    position: relative;
+    background-image: url(../img/footer-images/apple-mob-1x.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+   }
+
+.background-img {
+}
+
+/* .img-orange {
+position: relative;
+top: 18px;
+left: 100%;
+transform: translateX(-100%);
+}
+
+.img-apple {
+    position: relative;
+    top: 132px;
+    left: 0;
+    }
+
+.img-fruits {
+ position: relative;
+top: 100%;
+ left: 50%;
+transform: translateX(-50%);
+    } */
+
+    .logo {
+
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.footer-nav-item {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.footer-nav-link {
+}
+.footer-subscribe {
+    margin-top: 40px;
+}
+
+.footer-subscribe-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.footer-subscribe-input {
+    border: 0.85px solid #FFE550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 279px;
+    min-height: 42px;
+    display: block;
+}
+
+.footer-subscribe-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #505050;
+}
+
+.footer-subscribe-btn {
+    border: 0.85px solid #7EB101;
+border-radius: 30px;
+padding: 10px 20px;
+width: 103px;
+min-height: 35px;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+margin-top: 20px;
+background-color: #fff;
+text-align: center;
+display: block;
+margin-bottom: 24px;
+}
+.footer-subscribe-text {
+    font-weight: 400;
+font-size: 10px;
+margin-bottom: 60px;
+}
+.footer-text-pp {
+    text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #7EB101;
+}
+.pp-terms-settings {
+ 
+}
+
+.terms-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-list-item {
+    font-weight: 400;
+font-size: 10px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #7EB101;
+}
+.terms-list-link {
+}
+
+.footer-text {
+    margin-top: 46px;
+    font-weight: 400;
+font-size: 10px;
+text-align: center;
+}
