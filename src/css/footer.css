@@ -3,9 +3,9 @@
 .footer-container {
     box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
     position: relative;
-    background-image: url(../img/footer-images/apple-mob-1x.png);
-    background-repeat: no-repeat;
-    background-position: 0;
+    background-image: url(../img/footer-images/apple-mob-1x.png), url(../img/footer-images/orange-mob-1x.png), url(../img/footer-images/fruits-mob-1x.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 0 132px, 100% 18px, bottom;
    }
 
 .background-img {
@@ -39,7 +39,7 @@ transform: translateX(-50%);
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-top: 64px;
+    padding-top: 64px;
 }
 
 .footer-nav-item {
@@ -125,4 +125,5 @@ color: #7EB101;
     font-weight: 400;
 font-size: 10px;
 text-align: center;
+padding-bottom: 66px;
 }
